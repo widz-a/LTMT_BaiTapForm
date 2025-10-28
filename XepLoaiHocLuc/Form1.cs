@@ -14,7 +14,7 @@
 
             TextBox[] textboxes = { input_s1, input_s2, input_s3, input_s4, input_s5 };
             List<double> grades = new List<double>();
-
+            
             foreach (var item in textboxes) {
                 double n;
                 if (double.TryParse(item.Text, out n)) {
@@ -48,18 +48,6 @@
             else xepLoai = "Yếu";
 
             output_info.Text = $"{name}\r\nXếp loại: {xepLoai}";
-        }
-
-        private void btn_reset_Click(object sender, EventArgs e) {
-            input_name.Clear();
-            input_s1.Clear();
-            input_s2.Clear();
-            input_s3.Clear();   
-            input_s4.Clear();   
-            input_s5.Clear();
-            output_info.Clear();
-            output_tbc.Clear();
-            input_name.Focus();
         }
     }
 }

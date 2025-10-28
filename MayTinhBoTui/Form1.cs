@@ -21,7 +21,7 @@
             int no = int.Parse(id.Replace("btn_", ""));
 
             if (newInput) {
-                the_box.Clear();
+                the_box.Text = "";
                 newInput = false;
             }
 
@@ -84,7 +84,7 @@
             currentNumber = 0;
             action = Actions.NONE;
             newInput = false;
-            the_box.Clear();
+            the_box.Text = "";
         }
     }
 }
