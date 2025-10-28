@@ -74,7 +74,7 @@
 
             if (rdb_search_index.Checked && int.TryParse(input_search_index.Text, out searchNo)) {
                 if (searchNo >= list.Count) {
-                    output_search.Text = "";
+                    output_search.Clear();
                     return;
                 }
                 output_search.Text = list[searchNo].ToString();
@@ -83,38 +83,38 @@
 
         private void btn_reset_Click(object sender, EventArgs e) {
             list.Clear();
-            input.Text = "";
-            output.Text = "";
+            input.Clear();
+            output.Clear();
             rdb_sort_up.Checked = false;
             rdb_sort_down.Checked = false;
 
             rdb_search_value.Checked = false;
             rdb_search_index.Checked = false;
-            input_search_index.Text = "";
-            input_search_value.Text = "";
-            output_search.Text = "";
+            input_search_index.Clear();
+            input_search_value.Clear();
+            output_search.Clear();
 
             rdb_remove_index.Checked = false;
             rdb_remove_value.Checked = false;
-            input_remove_index.Text = "";
-            input_remove_value.Text = "";
+            input_remove_index.Clear();
+            input_remove_value.Clear();
 
             rdb_add.Checked = false;
-            input_add_index.Text = "";
-            input_add_value.Text = "";
+            input_add_index.Clear();
+            input_add_value.Clear();
 
-            output_sum.Text = "";
-            output_even.Text = "";
-            output_odd.Text = "";
+            output_sum.Clear();
+            output_even.Clear();
+            output_odd.Clear();
 
-            output_max.Text = "";
-            output_min.Text = "";
+            output_max.Clear();
+            output_min.Clear();
 
             rdb_replace_value.Checked = false;
             rdb_replace_index.Checked = false;
-            input_replace_index.Text = "";
-            input_replace_value.Text = "";
-            input_replace.Text = "";
+            input_replace_index.Clear();
+            input_replace_value.Clear();
+            input_replace.Clear();
         }
 
         private void btn_sum_Click(object sender, EventArgs e) {
