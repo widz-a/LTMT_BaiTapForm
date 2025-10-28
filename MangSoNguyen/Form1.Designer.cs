@@ -125,7 +125,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(471, 62);
+            panel1.Size = new Size(499, 62);
             panel1.TabIndex = 1;
             // 
             // label1
@@ -134,7 +134,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(109, 11);
+            label1.Location = new Point(123, 11);
             label1.Name = "label1";
             label1.Size = new Size(252, 41);
             label1.TabIndex = 1;
@@ -147,7 +147,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 62);
             panel2.Name = "panel2";
-            panel2.Size = new Size(471, 148);
+            panel2.Size = new Size(499, 148);
             panel2.TabIndex = 2;
             // 
             // tableLayoutPanel2
@@ -162,7 +162,7 @@
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(471, 81);
+            tableLayoutPanel2.Size = new Size(499, 81);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // btn_execute
@@ -182,7 +182,7 @@
             groupBox1.Dock = DockStyle.Fill;
             groupBox1.Location = new Point(103, 3);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(365, 75);
+            groupBox1.Size = new Size(393, 75);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "Sắp xếp";
@@ -199,16 +199,16 @@
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 1;
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.Size = new Size(359, 49);
+            tableLayoutPanel3.Size = new Size(387, 49);
             tableLayoutPanel3.TabIndex = 0;
             // 
             // rdb_sort_down
             // 
             rdb_sort_down.AutoSize = true;
             rdb_sort_down.Dock = DockStyle.Fill;
-            rdb_sort_down.Location = new Point(182, 3);
+            rdb_sort_down.Location = new Point(196, 3);
             rdb_sort_down.Name = "rdb_sort_down";
-            rdb_sort_down.Size = new Size(174, 43);
+            rdb_sort_down.Size = new Size(188, 43);
             rdb_sort_down.TabIndex = 6;
             rdb_sort_down.Text = "Sắp xếp giảm";
             rdb_sort_down.UseVisualStyleBackColor = true;
@@ -219,7 +219,7 @@
             rdb_sort_up.Dock = DockStyle.Fill;
             rdb_sort_up.Location = new Point(3, 3);
             rdb_sort_up.Name = "rdb_sort_up";
-            rdb_sort_up.Size = new Size(173, 43);
+            rdb_sort_up.Size = new Size(187, 43);
             rdb_sort_up.TabIndex = 5;
             rdb_sort_up.Text = "Sắp xếp tăng";
             rdb_sort_up.UseVisualStyleBackColor = true;
@@ -227,8 +227,8 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 3;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 221F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 120F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle());
             tableLayoutPanel1.Controls.Add(btn_thoat, 2, 1);
             tableLayoutPanel1.Controls.Add(output, 1, 1);
@@ -242,13 +242,13 @@
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
             tableLayoutPanel1.RowStyles.Add(new RowStyle());
-            tableLayoutPanel1.Size = new Size(471, 67);
+            tableLayoutPanel1.Size = new Size(499, 67);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // btn_thoat
             // 
             btn_thoat.Dock = DockStyle.Fill;
-            btn_thoat.Location = new Point(335, 38);
+            btn_thoat.Location = new Point(363, 38);
             btn_thoat.Name = "btn_thoat";
             btn_thoat.Size = new Size(133, 29);
             btn_thoat.TabIndex = 10;
@@ -260,9 +260,9 @@
             // 
             output.Dock = DockStyle.Fill;
             output.Enabled = false;
-            output.Location = new Point(114, 38);
+            output.Location = new Point(123, 38);
             output.Name = "output";
-            output.Size = new Size(215, 27);
+            output.Size = new Size(234, 27);
             output.TabIndex = 8;
             // 
             // label3
@@ -271,7 +271,7 @@
             label3.Dock = DockStyle.Fill;
             label3.Location = new Point(3, 35);
             label3.Name = "label3";
-            label3.Size = new Size(105, 35);
+            label3.Size = new Size(114, 35);
             label3.TabIndex = 7;
             label3.Text = "Kết quả mảng:";
             label3.TextAlign = ContentAlignment.MiddleLeft;
@@ -279,9 +279,9 @@
             // input
             // 
             input.Dock = DockStyle.Fill;
-            input.Location = new Point(114, 3);
+            input.Location = new Point(123, 3);
             input.Name = "input";
-            input.Size = new Size(215, 27);
+            input.Size = new Size(234, 27);
             input.TabIndex = 6;
             // 
             // label2
@@ -290,7 +290,7 @@
             label2.Dock = DockStyle.Fill;
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
-            label2.Size = new Size(105, 35);
+            label2.Size = new Size(114, 35);
             label2.TabIndex = 5;
             label2.Text = "Nhập mảng:";
             label2.TextAlign = ContentAlignment.MiddleLeft;
@@ -298,7 +298,7 @@
             // btn_reset
             // 
             btn_reset.Dock = DockStyle.Fill;
-            btn_reset.Location = new Point(335, 3);
+            btn_reset.Location = new Point(363, 3);
             btn_reset.Name = "btn_reset";
             btn_reset.Size = new Size(133, 29);
             btn_reset.TabIndex = 9;
@@ -324,16 +324,16 @@
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel4.Size = new Size(471, 385);
+            tableLayoutPanel4.Size = new Size(499, 385);
             tableLayoutPanel4.TabIndex = 3;
             // 
             // groupBox7
             // 
             groupBox7.Controls.Add(tableLayoutPanel12);
             groupBox7.Dock = DockStyle.Fill;
-            groupBox7.Location = new Point(238, 259);
+            groupBox7.Location = new Point(252, 259);
             groupBox7.Name = "groupBox7";
-            groupBox7.Size = new Size(230, 123);
+            groupBox7.Size = new Size(244, 123);
             groupBox7.TabIndex = 5;
             groupBox7.TabStop = false;
             groupBox7.Text = "Thay thế";
@@ -356,7 +356,7 @@
             tableLayoutPanel12.RowStyles.Add(new RowStyle());
             tableLayoutPanel12.RowStyles.Add(new RowStyle());
             tableLayoutPanel12.RowStyles.Add(new RowStyle());
-            tableLayoutPanel12.Size = new Size(224, 97);
+            tableLayoutPanel12.Size = new Size(238, 97);
             tableLayoutPanel12.TabIndex = 0;
             // 
             // rdb_replace_index
@@ -365,7 +365,7 @@
             rdb_replace_index.Dock = DockStyle.Fill;
             rdb_replace_index.Location = new Point(3, 36);
             rdb_replace_index.Name = "rdb_replace_index";
-            rdb_replace_index.Size = new Size(182, 27);
+            rdb_replace_index.Size = new Size(196, 27);
             rdb_replace_index.TabIndex = 7;
             rdb_replace_index.TabStop = true;
             rdb_replace_index.Text = "Vị trí cần thay thế";
@@ -374,7 +374,7 @@
             // input_replace
             // 
             input_replace.Dock = DockStyle.Right;
-            input_replace.Location = new Point(191, 69);
+            input_replace.Location = new Point(205, 69);
             input_replace.Name = "input_replace";
             input_replace.Size = new Size(30, 27);
             input_replace.TabIndex = 5;
@@ -385,14 +385,14 @@
             label10.Dock = DockStyle.Fill;
             label10.Location = new Point(3, 66);
             label10.Name = "label10";
-            label10.Size = new Size(182, 33);
+            label10.Size = new Size(196, 33);
             label10.TabIndex = 4;
             label10.Text = "Số thay thế là";
             // 
             // input_replace_index
             // 
             input_replace_index.Dock = DockStyle.Right;
-            input_replace_index.Location = new Point(191, 36);
+            input_replace_index.Location = new Point(205, 36);
             input_replace_index.Name = "input_replace_index";
             input_replace_index.Size = new Size(30, 27);
             input_replace_index.TabIndex = 3;
@@ -400,7 +400,7 @@
             // input_replace_value
             // 
             input_replace_value.Dock = DockStyle.Right;
-            input_replace_value.Location = new Point(191, 3);
+            input_replace_value.Location = new Point(205, 3);
             input_replace_value.Name = "input_replace_value";
             input_replace_value.Size = new Size(30, 27);
             input_replace_value.TabIndex = 1;
@@ -411,7 +411,7 @@
             rdb_replace_value.Dock = DockStyle.Fill;
             rdb_replace_value.Location = new Point(3, 3);
             rdb_replace_value.Name = "rdb_replace_value";
-            rdb_replace_value.Size = new Size(182, 27);
+            rdb_replace_value.Size = new Size(196, 27);
             rdb_replace_value.TabIndex = 6;
             rdb_replace_value.TabStop = true;
             rdb_replace_value.Text = "Giá trị cần thay thế";
@@ -423,7 +423,7 @@
             groupBox6.Dock = DockStyle.Fill;
             groupBox6.Location = new Point(3, 259);
             groupBox6.Name = "groupBox6";
-            groupBox6.Size = new Size(229, 123);
+            groupBox6.Size = new Size(243, 123);
             groupBox6.TabIndex = 4;
             groupBox6.TabStop = false;
             groupBox6.Text = "Max - Min";
@@ -440,7 +440,7 @@
             tableLayoutPanel10.Name = "tableLayoutPanel10";
             tableLayoutPanel10.RowCount = 1;
             tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel10.Size = new Size(223, 69);
+            tableLayoutPanel10.Size = new Size(237, 69);
             tableLayoutPanel10.TabIndex = 0;
             // 
             // tableLayoutPanel11
@@ -458,14 +458,14 @@
             tableLayoutPanel11.RowCount = 2;
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33334F));
-            tableLayoutPanel11.Size = new Size(169, 63);
+            tableLayoutPanel11.Size = new Size(183, 63);
             tableLayoutPanel11.TabIndex = 0;
             // 
             // output_min
             // 
             output_min.Dock = DockStyle.Fill;
             output_min.Enabled = false;
-            output_min.Location = new Point(136, 34);
+            output_min.Location = new Point(150, 34);
             output_min.Name = "output_min";
             output_min.Size = new Size(30, 27);
             output_min.TabIndex = 9;
@@ -476,7 +476,7 @@
             label11.Dock = DockStyle.Fill;
             label11.Location = new Point(3, 31);
             label11.Name = "label11";
-            label11.Size = new Size(127, 32);
+            label11.Size = new Size(141, 32);
             label11.TabIndex = 8;
             label11.Text = "Giá trị nhỏ nhất:";
             label11.TextAlign = ContentAlignment.MiddleLeft;
@@ -485,7 +485,7 @@
             // 
             output_max.Dock = DockStyle.Fill;
             output_max.Enabled = false;
-            output_max.Location = new Point(136, 3);
+            output_max.Location = new Point(150, 3);
             output_max.Name = "output_max";
             output_max.Size = new Size(30, 27);
             output_max.TabIndex = 7;
@@ -496,7 +496,7 @@
             label12.Dock = DockStyle.Fill;
             label12.Location = new Point(3, 0);
             label12.Name = "label12";
-            label12.Size = new Size(127, 31);
+            label12.Size = new Size(141, 31);
             label12.TabIndex = 6;
             label12.Text = "Giá trị lớn nhất:";
             label12.TextAlign = ContentAlignment.MiddleLeft;
@@ -504,7 +504,7 @@
             // btn_min_max_find
             // 
             btn_min_max_find.Dock = DockStyle.Fill;
-            btn_min_max_find.Location = new Point(178, 3);
+            btn_min_max_find.Location = new Point(192, 3);
             btn_min_max_find.Name = "btn_min_max_find";
             btn_min_max_find.Size = new Size(42, 63);
             btn_min_max_find.TabIndex = 1;
@@ -516,9 +516,9 @@
             // 
             groupBox5.Controls.Add(tableLayoutPanel8);
             groupBox5.Dock = DockStyle.Fill;
-            groupBox5.Location = new Point(238, 131);
+            groupBox5.Location = new Point(252, 131);
             groupBox5.Name = "groupBox5";
-            groupBox5.Size = new Size(230, 122);
+            groupBox5.Size = new Size(244, 122);
             groupBox5.TabIndex = 3;
             groupBox5.TabStop = false;
             groupBox5.Text = "Tổng";
@@ -535,7 +535,7 @@
             tableLayoutPanel8.Name = "tableLayoutPanel8";
             tableLayoutPanel8.RowCount = 1;
             tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel8.Size = new Size(224, 96);
+            tableLayoutPanel8.Size = new Size(238, 96);
             tableLayoutPanel8.TabIndex = 0;
             // 
             // tableLayoutPanel9
@@ -556,14 +556,14 @@
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
             tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel9.Size = new Size(154, 90);
+            tableLayoutPanel9.Size = new Size(164, 90);
             tableLayoutPanel9.TabIndex = 0;
             // 
             // output_odd
             // 
             output_odd.Dock = DockStyle.Right;
             output_odd.Enabled = false;
-            output_odd.Location = new Point(121, 63);
+            output_odd.Location = new Point(131, 63);
             output_odd.Name = "output_odd";
             output_odd.Size = new Size(30, 27);
             output_odd.TabIndex = 11;
@@ -574,7 +574,7 @@
             label9.Dock = DockStyle.Fill;
             label9.Location = new Point(3, 60);
             label9.Name = "label9";
-            label9.Size = new Size(112, 30);
+            label9.Size = new Size(122, 30);
             label9.TabIndex = 10;
             label9.Text = "Tổng lẻ:";
             label9.TextAlign = ContentAlignment.MiddleLeft;
@@ -583,7 +583,7 @@
             // 
             output_even.Dock = DockStyle.Right;
             output_even.Enabled = false;
-            output_even.Location = new Point(121, 33);
+            output_even.Location = new Point(131, 33);
             output_even.Name = "output_even";
             output_even.Size = new Size(30, 27);
             output_even.TabIndex = 9;
@@ -594,7 +594,7 @@
             label8.Dock = DockStyle.Fill;
             label8.Location = new Point(3, 30);
             label8.Name = "label8";
-            label8.Size = new Size(112, 30);
+            label8.Size = new Size(122, 30);
             label8.TabIndex = 8;
             label8.Text = "Tổng chẵn:";
             label8.TextAlign = ContentAlignment.MiddleLeft;
@@ -603,7 +603,7 @@
             // 
             output_sum.Dock = DockStyle.Right;
             output_sum.Enabled = false;
-            output_sum.Location = new Point(121, 3);
+            output_sum.Location = new Point(131, 3);
             output_sum.Name = "output_sum";
             output_sum.Size = new Size(30, 27);
             output_sum.TabIndex = 7;
@@ -614,7 +614,7 @@
             label7.Dock = DockStyle.Fill;
             label7.Location = new Point(3, 0);
             label7.Name = "label7";
-            label7.Size = new Size(112, 30);
+            label7.Size = new Size(122, 30);
             label7.TabIndex = 6;
             label7.Text = "Tổng mảng:";
             label7.TextAlign = ContentAlignment.MiddleLeft;
@@ -622,9 +622,9 @@
             // btn_sum
             // 
             btn_sum.Dock = DockStyle.Fill;
-            btn_sum.Location = new Point(163, 3);
+            btn_sum.Location = new Point(173, 3);
             btn_sum.Name = "btn_sum";
-            btn_sum.Size = new Size(58, 90);
+            btn_sum.Size = new Size(62, 90);
             btn_sum.TabIndex = 1;
             btn_sum.Text = "Tổng";
             btn_sum.UseVisualStyleBackColor = true;
@@ -637,7 +637,7 @@
             groupBox4.Dock = DockStyle.Fill;
             groupBox4.Location = new Point(3, 131);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(229, 122);
+            groupBox4.Size = new Size(243, 122);
             groupBox4.TabIndex = 2;
             groupBox4.TabStop = false;
             groupBox4.Text = "Thêm";
@@ -648,7 +648,7 @@
             panel4.Dock = DockStyle.Fill;
             panel4.Location = new Point(3, 86);
             panel4.Name = "panel4";
-            panel4.Size = new Size(223, 33);
+            panel4.Size = new Size(237, 33);
             panel4.TabIndex = 1;
             // 
             // label5
@@ -677,13 +677,13 @@
             tableLayoutPanel7.RowCount = 2;
             tableLayoutPanel7.RowStyles.Add(new RowStyle());
             tableLayoutPanel7.RowStyles.Add(new RowStyle());
-            tableLayoutPanel7.Size = new Size(223, 63);
+            tableLayoutPanel7.Size = new Size(237, 63);
             tableLayoutPanel7.TabIndex = 0;
             // 
             // input_add_index
             // 
             input_add_index.Dock = DockStyle.Right;
-            input_add_index.Location = new Point(190, 36);
+            input_add_index.Location = new Point(204, 36);
             input_add_index.Name = "input_add_index";
             input_add_index.Size = new Size(30, 27);
             input_add_index.TabIndex = 3;
@@ -691,7 +691,7 @@
             // input_add_value
             // 
             input_add_value.Dock = DockStyle.Right;
-            input_add_value.Location = new Point(190, 3);
+            input_add_value.Location = new Point(204, 3);
             input_add_value.Name = "input_add_value";
             input_add_value.Size = new Size(30, 27);
             input_add_value.TabIndex = 1;
@@ -702,7 +702,7 @@
             rdb_add.Dock = DockStyle.Fill;
             rdb_add.Location = new Point(3, 3);
             rdb_add.Name = "rdb_add";
-            rdb_add.Size = new Size(181, 27);
+            rdb_add.Size = new Size(195, 27);
             rdb_add.TabIndex = 6;
             rdb_add.TabStop = true;
             rdb_add.Text = "Tìm giá trị cần thêm:";
@@ -722,9 +722,9 @@
             groupBox3.Controls.Add(panel3);
             groupBox3.Controls.Add(tableLayoutPanel6);
             groupBox3.Dock = DockStyle.Fill;
-            groupBox3.Location = new Point(238, 3);
+            groupBox3.Location = new Point(252, 3);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(230, 122);
+            groupBox3.Size = new Size(244, 122);
             groupBox3.TabIndex = 1;
             groupBox3.TabStop = false;
             groupBox3.Text = "Xóa";
@@ -735,7 +735,7 @@
             panel3.Dock = DockStyle.Fill;
             panel3.Location = new Point(3, 86);
             panel3.Name = "panel3";
-            panel3.Size = new Size(224, 33);
+            panel3.Size = new Size(238, 33);
             panel3.TabIndex = 1;
             // 
             // label4
@@ -764,7 +764,7 @@
             tableLayoutPanel6.RowCount = 2;
             tableLayoutPanel6.RowStyles.Add(new RowStyle());
             tableLayoutPanel6.RowStyles.Add(new RowStyle());
-            tableLayoutPanel6.Size = new Size(224, 63);
+            tableLayoutPanel6.Size = new Size(238, 63);
             tableLayoutPanel6.TabIndex = 0;
             // 
             // rdb_remove_index
@@ -773,7 +773,7 @@
             rdb_remove_index.Dock = DockStyle.Fill;
             rdb_remove_index.Location = new Point(3, 36);
             rdb_remove_index.Name = "rdb_remove_index";
-            rdb_remove_index.Size = new Size(182, 27);
+            rdb_remove_index.Size = new Size(196, 27);
             rdb_remove_index.TabIndex = 7;
             rdb_remove_index.TabStop = true;
             rdb_remove_index.Text = "Tìm vị trí cần xóa";
@@ -782,7 +782,7 @@
             // input_remove_index
             // 
             input_remove_index.Dock = DockStyle.Right;
-            input_remove_index.Location = new Point(191, 36);
+            input_remove_index.Location = new Point(205, 36);
             input_remove_index.Name = "input_remove_index";
             input_remove_index.Size = new Size(30, 27);
             input_remove_index.TabIndex = 3;
@@ -790,7 +790,7 @@
             // input_remove_value
             // 
             input_remove_value.Dock = DockStyle.Right;
-            input_remove_value.Location = new Point(191, 3);
+            input_remove_value.Location = new Point(205, 3);
             input_remove_value.Name = "input_remove_value";
             input_remove_value.Size = new Size(30, 27);
             input_remove_value.TabIndex = 1;
@@ -801,7 +801,7 @@
             rdb_remove_value.Dock = DockStyle.Fill;
             rdb_remove_value.Location = new Point(3, 3);
             rdb_remove_value.Name = "rdb_remove_value";
-            rdb_remove_value.Size = new Size(182, 27);
+            rdb_remove_value.Size = new Size(196, 27);
             rdb_remove_value.TabIndex = 6;
             rdb_remove_value.TabStop = true;
             rdb_remove_value.Text = "Tìm giá trị cần xóa";
@@ -813,7 +813,7 @@
             groupBox2.Dock = DockStyle.Fill;
             groupBox2.Location = new Point(3, 3);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(229, 122);
+            groupBox2.Size = new Size(243, 122);
             groupBox2.TabIndex = 0;
             groupBox2.TabStop = false;
             groupBox2.Text = "Tìm kiếm";
@@ -836,7 +836,7 @@
             tableLayoutPanel5.RowStyles.Add(new RowStyle());
             tableLayoutPanel5.RowStyles.Add(new RowStyle());
             tableLayoutPanel5.RowStyles.Add(new RowStyle());
-            tableLayoutPanel5.Size = new Size(223, 96);
+            tableLayoutPanel5.Size = new Size(237, 96);
             tableLayoutPanel5.TabIndex = 0;
             // 
             // rdb_search_index
@@ -845,7 +845,7 @@
             rdb_search_index.Dock = DockStyle.Fill;
             rdb_search_index.Location = new Point(3, 36);
             rdb_search_index.Name = "rdb_search_index";
-            rdb_search_index.Size = new Size(181, 27);
+            rdb_search_index.Size = new Size(195, 27);
             rdb_search_index.TabIndex = 9;
             rdb_search_index.TabStop = true;
             rdb_search_index.Text = "Tìm vị trí cần tìm";
@@ -857,7 +857,7 @@
             rdb_search_value.Dock = DockStyle.Fill;
             rdb_search_value.Location = new Point(3, 3);
             rdb_search_value.Name = "rdb_search_value";
-            rdb_search_value.Size = new Size(181, 27);
+            rdb_search_value.Size = new Size(195, 27);
             rdb_search_value.TabIndex = 8;
             rdb_search_value.TabStop = true;
             rdb_search_value.Text = "Tìm giá trị cần tìm";
@@ -867,7 +867,7 @@
             // 
             output_search.Dock = DockStyle.Right;
             output_search.Enabled = false;
-            output_search.Location = new Point(190, 69);
+            output_search.Location = new Point(204, 69);
             output_search.Name = "output_search";
             output_search.Size = new Size(30, 27);
             output_search.TabIndex = 5;
@@ -878,14 +878,14 @@
             label6.Dock = DockStyle.Fill;
             label6.Location = new Point(3, 66);
             label6.Name = "label6";
-            label6.Size = new Size(181, 33);
+            label6.Size = new Size(195, 33);
             label6.TabIndex = 4;
             label6.Text = "Số tìm được là";
             // 
             // input_search_index
             // 
             input_search_index.Dock = DockStyle.Right;
-            input_search_index.Location = new Point(190, 36);
+            input_search_index.Location = new Point(204, 36);
             input_search_index.Name = "input_search_index";
             input_search_index.Size = new Size(30, 27);
             input_search_index.TabIndex = 3;
@@ -893,7 +893,7 @@
             // input_search_value
             // 
             input_search_value.Dock = DockStyle.Right;
-            input_search_value.Location = new Point(190, 3);
+            input_search_value.Location = new Point(204, 3);
             input_search_value.Name = "input_search_value";
             input_search_value.Size = new Size(30, 27);
             input_search_value.TabIndex = 1;
@@ -902,7 +902,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(471, 595);
+            ClientSize = new Size(499, 595);
             Controls.Add(tableLayoutPanel4);
             Controls.Add(panel2);
             Controls.Add(panel1);
