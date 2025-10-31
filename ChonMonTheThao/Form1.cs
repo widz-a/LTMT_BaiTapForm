@@ -32,19 +32,19 @@ namespace ChonMonTheThao
         }
 
         private void btn_in_Click(object sender, EventArgs e) {
-            object item = subjects.SelectedItem;
-            if (item == null) return;
+            int i = subjects.SelectedIndex;
+            if (i == -1) return;
 
-            subjects.Items.Remove(item);
-            chosen.Items.Add(item);
+            chosen.Items.Add(subjects.Items[i]);
+            subjects.Items.RemoveAt(i);
         }
 
         private void btn_out_Click(object sender, EventArgs e) {
-            object item = chosen.SelectedItem;
-            if (item == null) return;
+            int i = chosen.SelectedIndex;
+            if (i == -1) return;
 
-            chosen.Items.Remove(item);
-            subjects.Items.Add(item);
+            subjects.Items.Add(chosen.Items[i]);
+            chosen.Items.RemoveAt(i);
         }
 
         private void btn_reset_Click(object sender, EventArgs e) {
